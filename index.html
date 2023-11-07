@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>  GameVerse </title>
+  <style>
+  body {
+     background:  #350178;
+	 overflow-x: hidden;
+	 overflow-y: scroll;
+	 color: white;
+	 scroll-behavior: smooth;
+     }
+     
+	 *{
+	   margin: 0;
+	   padding: 0;
+	   list-style:  none;
+	   text-decoration: none;
+	  }
+		.name {
+		background: #2b1055;
+		color: white;
+		border-bottom: 2px solid white;
+		}
+		h1 {
+		font-size: 4em;
+		}
+		.about ul{
+		transition: all .5s ease;
+		}
+		.name img{
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		}
+		button {
+		background:  #5cd65c;
+		padding: 10px;
+	    }
+header ul li a.active1 i{
+color: #2b1055;
+}
+button{
+border: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,500,600,700,800,900&diplay=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior:smooth;
+	}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a.active1 {
+color: #2b1055;
+}
+header ul li a:hover,
+header ul li a.active1
+
+{
+    background: #fff;
+    color: #2b1055;
+}
+i{
+color: white;
+}
+header ul li a:hover i{
+color: #2b1055;
+}
+.name a{
+color: white;
+}
+.about a{
+color:white;
+}
+  </style>
+  </head>
+  <body>
+ <header>
+    <h1 class="logo">GameVerse</h1>
+    <ul>
+      <li><a href="#" class="active1"><i class="fa fa-home"></i>Home</a></li>
+      <li><a href="#sec"><i class="fa fa-users"></i>About</a></li>
+      <li><a href="mailto:harshitaadarsh0718@gmaiil.com"><i class="fa fa-comment"></i>Message</a></li>
+    </ul>
+  </header>
+  <section>
+  <div class="name">
+			<center><br><br><br><br>
+		<img src="gameverse.jpg">
+		<font face="Palatino Linotype"><b>
+		<h1> GameVerse </h1>
+		<h2> by <a href="https://harshitaadarsh1881.github.io">Harshit Aadarsh</a></b><br><br>
+		</center>
+		</div>
+		<div class="about">
+		<center><br><br>
+		<p> Welcome, to my official website. This is the official website of GameVerse.<br>
+		This is a official website in which you can play several games by installing an <br>
+		application whose name is <b> GameVerse</b>. This game is completely made<br>
+		by me(Harshit Aadarsh). This website is the official website.  This is the Home Page.<br>
+		If you want to contact me click on the above navigation bar. This is also the About Page.<br>
+		You can play here 4 games which are as follows:  <br>
+		<ul type="disc">
+		<li><a href="boxcut.html"><b>Cube Smash</b></a> </li>
+		<li><a href="numpuz.html"> <b>Numpuz</b></a></li>
+		<li><a href="tictac.html"><b>Tic Tac Toe </b></a></li>
+		<li><a href="snake.html"><b> Snake Game</b> </a></li>
+		</ul>
+		So, Thank You to all to visit the Official Website of GameVerse. Hope, You enjoy the Game<br>
+           The Download Link is given Below. Steps to download the app are given below:</p><br>
+           <h2><ol>
+          <li> Download the APK . Click here to Download the APK.</li>		  
+		
+	     
+		<br><br> 
+		Download link is given below:<br><br><br>
+		For Android: <br><br>
+		<button><a href="_GameVerse_17734066.apk" download> Install </a></button><br><br><br><br>
+		</p>
+		</center>
+		</div>
+		</section>
+		</font>
+		<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "300px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
